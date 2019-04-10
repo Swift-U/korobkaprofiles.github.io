@@ -844,6 +844,9 @@ background:#0066ff;
     .descrip{
         width: 18em;
     }
+    header {
+        height: 1080px;
+    }
 
 }  
 
