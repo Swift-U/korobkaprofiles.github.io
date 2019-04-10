@@ -828,7 +828,7 @@ background:#0066ff;
         width: 21em;
     }
     .header {
-        height: 1080px!important;
+        height: 1000px!important;
     }
 }
 @media(min-width:0px) and (max-width: 330px){
@@ -848,7 +848,7 @@ background:#0066ff;
         width: 18em;
     }
     .header {
-        height: 1080px!important;
+        height: 1000px!important;
     }
 
 }  
