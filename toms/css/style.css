@@ -855,8 +855,10 @@ background:#0066ff;
 @media(min-width:0px) and (max-width: 690px){
 .discrip {
     width: 30em;
-    height: 1000px!important;
 }
+.header {
+        height: 1000px!important;
+    }
 }
 
 
