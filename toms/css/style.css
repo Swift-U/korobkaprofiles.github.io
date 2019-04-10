@@ -825,7 +825,7 @@ background:#0066ff;
         padding: 0px;
     }
     .descrip{
-        width: 21em;
+        width: 21em!important;
     }
     .header {
         height: 1000px!important;
