@@ -852,13 +852,14 @@ background:#0066ff;
     }
 
 }  
-@media(min-width:0px) and (max-width: 690px){
-.discrip {
-    width: 30em;
-}
+@media(min-width:0px) and (max-width: 690px) {
+  .discrip {
+    width: 30em!important;
+    height: 44em!important;
+    }
 .header {
         height: 1100px!important;
-    }
+       }
 }
 
 
