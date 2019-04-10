@@ -787,7 +787,6 @@ background:#0066ff;
     height: 51em;
     background: rgba(0,0,0,0.9);
     color: #fff;
-     position: absolute;
     top: 12%;
     margin: auto;
     padding: 2em;
@@ -825,6 +824,8 @@ background:#0066ff;
     #myCarousel {
         padding: 0px;
     }
+    .descrip{
+        width: 21em;
 
 }
 @media(min-width:0px) and (max-width: 330px){
@@ -839,6 +840,9 @@ background:#0066ff;
     }
     .description {
         padding: 0rem!important;
+    }
+    .descrip{
+        width: 18em;
     }
 
 }  
