@@ -852,9 +852,9 @@ background:#0066ff;
     }
 
 }  
-@media(min-width:0px) and (max-width: 690px){
+@media(min-width:0px) and (max-width: 1190px){
     .header {
-        height: 1190px!important;
+        height: 1000px!important;
     }
     .descrip{
         width: 30em!important;
