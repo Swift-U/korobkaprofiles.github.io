@@ -1,0 +1,9 @@
+$(document).ready(function(){
+ $('.header').height($(window).height());
+})
+$(document).ready(function(){
+ $('#section_two_col_one').height($(window).height());
+})
+$(document).ready(function(){
+ $('#section_two_col_two').height($(window).height());
+})
