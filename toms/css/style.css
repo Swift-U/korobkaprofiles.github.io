@@ -806,20 +806,37 @@ background:#0066ff;
 #select h6{
    color: #8c8c8c; 
 }
-@media(min-width:0px) and (max-width: 460px) {
+@media(min-width:0px) and (max-width: 480px) {
     #about {
         padding: 0rem!important;
     }
-    #section_two_col_two{
+    #media_post {
         padding: 0rem!important;
+    }
+    #media_post p{
+        font-size: 20px;
     }
     .description h3{
         font-size: 50px;
     }
     .team-back span {
-        font-size: 15px;
+        font-size: 14px;
     }
     #myCarousel {
         padding: 0px;
+    }
+}
+@media(min-width:0px) and (max-width: 330px){
+    .team-back span {
+        font-size: 10px;
+    }
+    .testimonial p {
+        font-size: 16px;
+    }
+    .description h3 {
+        font-size: 43px;
+    }
+    .description {
+        padding: 0rem!important;
     }
 }
