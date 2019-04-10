@@ -826,7 +826,10 @@ background:#0066ff;
     }
     .descrip{
         width: 21em;
-
+    }
+    .header {
+        height: 1080px;
+    }
 }
 @media(min-width:0px) and (max-width: 330px){
     .team-back span {
@@ -844,7 +847,7 @@ background:#0066ff;
     .descrip{
         width: 18em;
     }
-    header {
+    .header {
         height: 1080px;
     }
 
