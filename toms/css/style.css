@@ -825,6 +825,9 @@ background:#0066ff;
     #myCarousel {
         padding: 0px;
     }
+    #section_two_col_two{
+        height: 1000px;
+    }
 }
 @media(min-width:0px) and (max-width: 330px){
     .team-back span {
@@ -839,4 +842,7 @@ background:#0066ff;
     .description {
         padding: 0rem!important;
     }
+    #section_two_col_two{
+        height: 1000px;
+    } 
 }
