@@ -1,5 +1,6 @@
-body{ 
-    width: 100%;
+body,html{ 
+    overflow-x: hidden;
+   
 
 }
 .nav-link , .navbar-brand{
@@ -775,7 +776,7 @@ background:#0066ff;
 
 }
 #section_two_col_two p{
-  font-size: 25px;
+  font-size: 23px;
 
 }
 #section_two_col_two{
@@ -805,4 +806,20 @@ background:#0066ff;
 #select h6{
    color: #8c8c8c; 
 }
-
+@media(min-width:0px) and (max-width: 460px) {
+    #about {
+        padding: 0rem!important;
+    }
+    #section_two_col_two{
+        padding: 0rem!important;
+    }
+    .description h3{
+        font-size: 50px;
+    }
+    .team-back span {
+        font-size: 15px;
+    }
+    #myCarousel {
+        padding: 0px;
+    }
+}
