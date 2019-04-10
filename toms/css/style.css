@@ -852,15 +852,11 @@ background:#0066ff;
     }
 
 }  
-/*@media(min-width:0px) and (max-width: 690px){
+@media(min-width:0px) and (max-width: 690px){
     .header {
         height: 1000px!important;
-    }
-    .descrip{
-        width: 30em;
-        
-    }
-}*/
+   }
+}
 
 
 
