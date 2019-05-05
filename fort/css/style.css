@@ -38,3 +38,14 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 514px) {
+  #text_one{
+  	font-size: 27px;
+  }
+}
+@media screen and (max-width: 412px) {
+  #text_one{
+  	font-size: 22px;
+  }
+}
