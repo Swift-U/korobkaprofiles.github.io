@@ -943,8 +943,8 @@ button {
 /*Смартфоны (ландшафтный)*/
 @media only screen and (min-width : 321px) {
   .small{
-    width: 77.333333%;
-    padding-bottom: 77.933333%;
+    width: 106.333333%;
+    padding-bottom: 105.933333%;
     margin-left: 12%;
     float: none;
         margin-top: 18%;
@@ -981,6 +981,13 @@ button {
   margin-left: -14%;
   box-shadow: none;
 }
+.logo_header img{
+    width:135.3%;
+  }
+.logo_header {
+    padding-top: 4%;
+  }
+
 }
 
 /*Смартфоны (portrait)*/
@@ -1050,6 +1057,12 @@ button {
   margin-left: -41%;
   box-shadow:0 0 2px rgba(0,0,0,0.3);
 }
+ .logo_header img{
+    width:76.3%;
+  }
+  .logo_header {
+    padding-top: 8%;
+  }
 }
 
 /* Большие экраны*/
@@ -1070,6 +1083,9 @@ button {
   }
    .large{
     display: block;
+  }
+  .logo_header img{
+    width:76.3%;
   }
  }
 
