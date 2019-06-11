@@ -38,7 +38,7 @@ function expandElement(elementToExpand) {
   elementToExpand.css({
     top: elementToExpand.position().top - $("body").scrollTop(),
     left: elementToExpand.offset().left,
-    height: elementToExpand.height(),
+    // height: elementToExpand.height(),
     width: elementToExpand.width(),
     "max-width": expandWidth,
     position: "fixed"
