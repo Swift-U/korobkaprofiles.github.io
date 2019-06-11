@@ -17,7 +17,7 @@ function expandElement(elementToExpand) {
   // Prevents 'body' scroll
   $("body").addClass("lock");
 
-  // freeze the current scroll position of the background page expand-wrapper
+  // заморозить текущую позицию прокрутки фоновой страницы.
   var elementOffset = $(".list-wrapper").offset();
   var elementScrollTop = $("body").scrollTop();
   var netOffset = elementOffset.top - elementScrollTop;
@@ -34,17 +34,17 @@ function expandElement(elementToExpand) {
     "z-index": "11"
   });
 
-  // convert the expand-item to fixed position without moving it
+  // преобразовать элемент расширения в фиксированное положение, не перемещая его
   elementToExpand.css({
     top: elementToExpand.position().top - $("body").scrollTop(),
     left: elementToExpand.offset().left,
-    // height: elementToExpand.height(),
+    height: elementToExpand.height(),
     width: elementToExpand.width(),
     "max-width": expandWidth,
     position: "fixed"
   });
   
-  // Changes height of banner
+  // Изменяет высоту баннера
   var expandedHeight = elementToExpand.find(".banner").data("height-expanded");
   elementToExpand.find(".banner").animate(
     {
@@ -54,7 +54,7 @@ function expandElement(elementToExpand) {
     "easeOutBack"
   );
   
-  // Changes position of content
+  // Меняет позицию контента
   var expandedPosition = elementToExpand
     .find(".inner-content")
     .data("position-expanded");
@@ -66,8 +66,8 @@ function expandElement(elementToExpand) {
     "easeOutBack"
   );
 
-  // start expand-item animation to the expand wrapper
-  // expand the element with class .about-tile-bg-image
+  // запустить анимацию расширения элемента в оболочке расширения
+  // разверните элемент с помощью класса .about-tile-bg-image
   elementToExpand.animate(
     {
       left: expandLeft,
@@ -76,8 +76,8 @@ function expandElement(elementToExpand) {
       width: expandWidth,
       "max-width": expandWidth
     },
-    expandingAnimationTiming, // animation timing in millisecs
-    "easeOutBack", //animation easing
+    expandingAnimationTiming, // время анимации в миллисекундах
+    "easeOutBack", //ослабление анимации
     function() {
       elementToExpand.css({
         right: 0,
@@ -93,7 +93,7 @@ function expandElement(elementToExpand) {
   );
 }
 
-/* Function to collapse cards */
+/* Функция сворачивания карты */
 function collapseElement(collapseButton) {
   // find the element to collapse
   var elementToCollpseParent = collapseButton.parents(".card");
@@ -121,9 +121,9 @@ function collapseElement(collapseButton) {
   });
 
   $(".list-wrapper").css({
-    top: 30,
+    top: 0,
     position: "absolute",
-    overflow: "initial",
+    overflow: "inherit",
     "z-index": "1"
   });
   
