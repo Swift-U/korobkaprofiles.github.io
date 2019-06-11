@@ -12,7 +12,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif; 
-   overflow-y: hidden;
+  /* overflow-y: hidden;*/
 }
 
 .flexContainer {
