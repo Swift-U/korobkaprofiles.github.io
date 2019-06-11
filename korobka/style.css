@@ -1152,6 +1152,44 @@ button{
  #mail{
   display: block;
  }
+    .large{
+    display: block;
+  }
+  .sec_2{
+    display: block;
+  }
+   #btn-bar{
+    display: block;
+  }
+  .flexContainer{
+    display: block;
+  }
+    .black_box_text{
+    display: block;
+  }
+  .container-footer{
+    display: block;
+  }
+  #block_day_fool{
+    display: block;
+  }
+  .list-wrapper{
+    display: none;
+  }
+  .logo_header{
+    width: 20%;
+   padding-top: 8%;
+  }
+  #icon_mail{
+  display: none;
+ }
+ #mail{
+  display: block;
+ }
+ .scroll_container{
+  padding-top:10%;
+  padding-bottom:11%;
+ }
 
 }
 
@@ -1204,6 +1242,10 @@ button{
  }
  #mail{
   display: block;
+ }
+ .scroll_container{
+  padding-top:10%;
+  padding-bottom:11%;
  }
 
 
