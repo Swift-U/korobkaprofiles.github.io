@@ -4,7 +4,7 @@ var collapsingAnimationTiming = 200;
 /* Extends jQuery animate easing */
 $.easing = Object.assign({}, $.easing, {
   easeOutBack: function(x, t, b, c, d, s) {
-    if (s == undefined) s = 0.70158;
+    if (s == undefined) s = 1.70158;
     return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
   }
 });
