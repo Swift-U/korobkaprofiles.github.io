@@ -38,7 +38,7 @@ function expandElement(elementToExpand) {
   elementToExpand.css({
     top: elementToExpand.position().top - $("body").scrollTop(),
     left: elementToExpand.offset().left,
-    // height: elementToExpand.height(),
+    height: elementToExpand.height(),
     width: elementToExpand.width(),
     "max-width": expandWidth,
     position: "fixed"
@@ -105,7 +105,7 @@ function collapseElement(collapseButton) {
     elementToCollpsePlaceholder.offset().top - $("body").scrollTop();
   var elementToCollpsePlaceholderLeft = elementToCollpsePlaceholder.offset()
     .left;
-  // var elementToCollpsePlaceholderHeight = elementToCollpsePlaceholder.outerHeight();
+  var elementToCollpsePlaceholderHeight = elementToCollpsePlaceholder.outerHeight();
   var elementToCollpsePlaceholderWidth = elementToCollpsePlaceholder.outerWidth();
 
   elementToCollpse.find(".banner-holder").css({
@@ -121,7 +121,7 @@ function collapseElement(collapseButton) {
   });
 
   $(".list-wrapper").css({
-    // top: 0,
+    top: 30,
     position: "absolute",
     overflow: "initial",
     "z-index": "1"
