@@ -719,3 +719,101 @@ width: 41%;
 }
 
 
+
+/*media*/
+
+/*NEWS*/
+/*Смартфоны (Портрет и ландшафтный)*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .news_fool {
+  display: none;
+}
+.list-wrapper{
+  display: block;
+}
+.news{
+  display: none;
+}
+.preservation{
+  display: none;
+}
+}
+
+/*Смартфоны (ландшафтный)*/
+@media only screen and (min-width : 321px) {
+.news_fool {
+  display: none;
+}
+.list-wrapper{
+  display: block;
+}
+.news{
+  display: none;
+}
+.preservation{
+  display: none;
+}
+}
+
+/*Смартфоны (portrait)*/
+@media only screen and (max-width : 320px) {
+.news_fool {
+  display: none;
+}
+.list-wrapper{
+  display: block;
+}
+.news{
+  display: none;
+}
+.preservation{
+  display: none;
+}
+}
+
+/*iPads (Портрет и Ландшафтный)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+
+ /*iPads (Ландшафтный)*/
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+ /*iPads (Портрет)*/
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+ 
+/*Настольные компьютеры и ноутбуки*/
+@media only screen and (min-width : 1224px) {
+  .news_fool {
+  display: block;
+}
+.list-wrapper{
+  display: none;
+}
+.news{
+  display: block;
+}
+.preservation{
+  display: block;
+}
+}
+
+/* Большие экраны*/
+ @media only screen and (min-width : 1824px) {
+.news_fool {
+  display: block;
+}
+.list-wrapper{
+  display: none;
+}
+.news{
+  display: block;
+}
+.preservation{
+  display: block;
+}
+ }
+
+ /*iPhone 4*/
+ @media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {}
+ 
+
+
