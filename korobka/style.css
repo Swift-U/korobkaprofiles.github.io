@@ -943,9 +943,10 @@ button {
 /*Смартфоны (ландшафтный)*/
 @media only screen and (min-width : 321px) {
   .small{
-    width: 106.333333%;
-    padding-bottom: 105.933333%;
-    margin-left: -2%;
+    display: none;
+    width: 77.333333%;
+    padding-bottom: 77.933333%;
+    margin-left: 12%;
     float: none;
         margin-top: 18%;
   }
@@ -981,23 +982,70 @@ button {
   margin-left: -14%;
   box-shadow: none;
 }
-.logo_header img{
-    width:135.3%;
+ .sec_2{
+    display: none;
   }
-.logo_header {
-    padding-top: 4%;
+   #btn-bar{
+    display: none;
   }
-
+  .flexContainer{
+    display: none;
+  }
+  .black_box_text{
+    display: none;
+  }
+    .container-footer{
+    display: none;
+  }
+  #block_day_fool{
+    display: none;
+  }
+    .list-wrapper{
+    display: block;
+}
+.scroll_container{
+  padding-bottom: 20%;
+  padding-top: 28%;
+}
+button{
+  font-size: 4.3vw;
+}
+.container{
+  width: 20.6%;
+}
 }
 
 /*Смартфоны (portrait)*/
 @media only screen and (max-width : 320px) {
   .small{
+    display: none;
     width: 77.333333%;
     padding-bottom: 77.933333%;
     margin-left: 12%;
     float: none; 
   }
+   .sec_2{
+    display: none;
+  }
+  #btn-bar{
+    display: none;
+  }
+  .flexContainer{
+    display: none;
+  }
+    .black_box_text{
+    display: none;
+  }
+    .container-footer{
+    display: none;
+  }
+  #block_day_fool{
+    display: none;
+  }
+    .list-wrapper{
+    display: block;
+  }
+
 }
 
 /*iPads (Портрет и Ландшафтный)*/
@@ -1012,6 +1060,7 @@ button {
 /*Настольные компьютеры и ноутбуки*/
 @media only screen and (min-width : 1224px) {
   .small{
+    display: block;
       width: 20.333333%;
   padding-bottom: 20.933333%;
   margin-bottom: 2%;
@@ -1057,12 +1106,28 @@ button {
   margin-left: -41%;
   box-shadow:0 0 2px rgba(0,0,0,0.3);
 }
- .logo_header img{
-    width:76.3%;
+ .sec_2{
+    display: block;
   }
-  .logo_header {
-    padding-top: 8%;
+   #btn-bar{
+    display: block;
   }
+  .flexContainer{
+    display: block;
+  }
+    .black_box_text{
+    display: block;
+  }
+    .container-footer{
+    display: block;
+  }
+  #block_day_fool{
+    display: block;
+  }
+    .list-wrapper{
+    display: none;
+  }
+
 }
 
 /* Большие экраны*/
@@ -1084,9 +1149,28 @@ button {
    .large{
     display: block;
   }
-  .logo_header img{
-    width:76.3%;
+  .sec_2{
+    display: block;
   }
+   #btn-bar{
+    display: block;
+  }
+  .flexContainer{
+    display: block;
+  }
+    .black_box_text{
+    display: block;
+  }
+  .container-footer{
+    display: block;
+  }
+  #block_day_fool{
+    display: block;
+  }
+  .list-wrapper{
+    display: none;
+  }
+
  }
 
  /*iPhone 4*/
@@ -1094,7 +1178,9 @@ button {
  
 
 
- 
+ /**/
+
+
 
 
 
