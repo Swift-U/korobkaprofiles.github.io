@@ -36,9 +36,9 @@ function expandElement(elementToExpand) {
 
   // convert the expand-item to fixed position without moving it
   elementToExpand.css({
-    top: elementToExpand.offset().top - $("body").scrollTop(),
+    top: elementToExpand.position().top - $("body").scrollTop(),
     left: elementToExpand.offset().left,
-    height: elementToExpand.height(),
+    // height: elementToExpand.height(),
     width: elementToExpand.width(),
     "max-width": expandWidth,
     position: "fixed"
@@ -71,8 +71,8 @@ function expandElement(elementToExpand) {
   elementToExpand.animate(
     {
       left: expandLeft,
-      top: expandTop,
-      height: expandHeight,
+      // top: expandTop,
+      // height: expandHeight,
       width: expandWidth,
       "max-width": expandWidth
     },
@@ -105,7 +105,7 @@ function collapseElement(collapseButton) {
     elementToCollpsePlaceholder.offset().top - $("body").scrollTop();
   var elementToCollpsePlaceholderLeft = elementToCollpsePlaceholder.offset()
     .left;
-  var elementToCollpsePlaceholderHeight = elementToCollpsePlaceholder.outerHeight();
+  // var elementToCollpsePlaceholderHeight = elementToCollpsePlaceholder.outerHeight();
   var elementToCollpsePlaceholderWidth = elementToCollpsePlaceholder.outerWidth();
 
   elementToCollpse.find(".banner-holder").css({
