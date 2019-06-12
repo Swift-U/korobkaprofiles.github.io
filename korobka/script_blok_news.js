@@ -1,3 +1,4 @@
+
 var expandingAnimationTiming = 400;
 var collapsingAnimationTiming = 200;
 

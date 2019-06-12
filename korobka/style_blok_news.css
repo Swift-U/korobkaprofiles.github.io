@@ -14,7 +14,7 @@
 .cards-list {
   position: relative;
   padding: 15px 15px 20px;
-  padding-bottom: calc(20px + env(safe-area-inset-bottom)); /* For iPhone X */
+  padding-bottom: calc(20px + env(safe-area-inset-bottom)); 
   max-width: 400px;
   margin: auto;
 }
@@ -108,7 +108,7 @@
 
 .card.open .inner-content {
   top: 40vh;
-  padding-bottom: env(safe-area-inset-bottom); /* for iPhone X */
+  padding-bottom: env(safe-area-inset-bottom); 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }

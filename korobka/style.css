@@ -936,6 +936,17 @@ button {
      position: relative;
      padding-top: 11%;
 }
+/*video block*/
+.section{
+  min-height: 100vh; 
+  box-sizing:border-box;
+  width: 100%; 
+  display: table;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
 
 /*media*/
 
@@ -988,6 +999,9 @@ button {
  .sec_2{
     display: none;
   }
+  .sec_1{
+    display: none;
+  }
    #btn-bar{
     display: none;
   }
@@ -1027,6 +1041,10 @@ button{
   #mail{
   display: none;
  }
+ .section{
+  display: none;
+}
+
 }
 
 /*Смартфоны (portrait)*/
@@ -1039,6 +1057,9 @@ button{
     float: none; 
   }
    .sec_2{
+    display: none;
+  }
+  .sec_1{
     display: none;
   }
   #btn-bar{
@@ -1065,6 +1086,10 @@ button{
  #mail{
   display: none;
  }
+ .section{
+  display: none;
+}
+
 
 
 }
@@ -1079,7 +1104,7 @@ button{
  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
  
 /*Настольные компьютеры и ноутбуки*/
-@media only screen and (min-width : 1224px) {
+@media  screen and (min-width : 1224px) {
   .small{
     display: block;
       width: 20.333333%;
@@ -1130,6 +1155,138 @@ button{
  .sec_2{
     display: block;
   }
+  .sec_1{
+    display: block;
+
+  }
+   #btn-bar{
+    display: block;
+  }
+  .flexContainer{
+    display: block;
+  }
+    .black_box_text{
+    display: block;
+  }
+    .container-footer{
+    display: block;
+  }
+  #block_day_fool{
+    display: block;
+  }
+    .list-wrapper{
+    display: none;
+  }
+  #icon_mail{
+  display: none;
+ }
+ #mail{
+  display: block;
+ }
+    .large{
+    display: block;
+  }
+
+   #btn-bar{
+    display: block;
+  }
+  .flexContainer{
+    display: block;
+  }
+    .black_box_text{
+    display: block;
+  }
+  .container-footer{
+    display: block;
+  }
+  #block_day_fool{
+    display: block;
+  }
+  .list-wrapper{
+    display: none;
+  }
+  .logo_header{
+    width: 20%;
+   padding-top: 8%;
+  }
+  #icon_mail{
+  display: none;
+ }
+ #mail{
+  display: block;
+ }
+ .scroll_container{
+  padding-top:10%;
+  padding-bottom:11%;
+ }
+  button{
+  font-size: 1.3vw;
+}
+ .container {
+    width: 8.6%;
+}
+.section{
+  display: table;
+}
+
+}
+
+/* Большие экраны*/
+ @media only screen and (min-width : 1824px) {
+     .small{
+    display: block;
+      width: 20.333333%;
+  padding-bottom: 20.933333%;
+  margin-bottom: 2%;
+  margin-left: 12%;
+  display: block;
+  background: #000;
+  float: right;
+  position:relative;
+  margin-right: -3%;
+  border-radius: 2%;
+  overflow:hidden;
+  margin-top: 0%; 
+  }
+   .large{
+    display: block;
+  }
+    .small_top{
+    width: 0%; 
+     float: none; 
+     margin-right: 0%
+  }
+  .month{
+    color: rgb(202, 202, 202);
+    background: #fff;
+    text-align: left;
+  }
+  .day{
+    background: #fff;
+    color: #04245d;
+    text-align:right;
+  }
+  .top_icon, .bottom{
+    text-align: center;
+    display: block;
+    width:0%;
+  }
+.top, .bottom{
+  width: 98%;
+  margin-top:0%;
+}
+.small_top{
+  width:31%;
+  margin-left: -41%;
+  box-shadow:0 0 2px rgba(0,0,0,0.3);
+}
+ .sec_2{
+    display: block;
+  }
+  .sec_1{
+    display: block;
+    padding-bottom:10%;
+  }
    #btn-bar{
     display: block;
   }
@@ -1158,6 +1315,9 @@ button{
     display: block;
   }
   .sec_2{
+    display: block;
+  }
+  .sec_1{
     display: block;
   }
    #btn-bar{
@@ -1198,68 +1358,8 @@ button{
  .container {
     width: 8.6%;
 }
-
-}
-
-/* Большие экраны*/
- @media only screen and (min-width : 1824px) {
-   .small{
-      width: 20.333333%;
-  padding-bottom: 20.933333%;
-  margin-bottom: 2%;
-  margin-left: 12%;
-  display: block;
-  background: #000;
-  float: right;
-  position:relative;
-  margin-right: -3%;
-  border-radius: 2%;
-  overflow:hidden;
-  margin-top: 0%; 
-  }
-   .large{
-    display: block;
-  }
-  .sec_2{
-    display: block;
-  }
-   #btn-bar{
-    display: block;
-  }
-  .flexContainer{
-    display: block;
-  }
-    .black_box_text{
-    display: block;
-  }
-  .container-footer{
-    display: block;
-  }
-  #block_day_fool{
-    display: block;
-  }
-  .list-wrapper{
-    display: none;
-  }
-  .logo_header{
-    width: 20%;
-   padding-top: 8%;
-  }
-  #icon_mail{
-  display: none;
- }
- #mail{
-  display: block;
- }
- .scroll_container{
-  padding-top:10%;
-  padding-bottom:11%;
- }
- button{
-  font-size: 1.3vw;
-}
- .container {
-    width: 8.6%;
+.section{
+  display: table;
 }
 
 
