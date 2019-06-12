@@ -747,11 +747,15 @@ width: 41%;
 .list-wrapper{
   display: block;
 }
-.news{
+.top{
   display: none;
 }
 .preservation{
   display: none;
+}
+.logo_header img {
+    width: 32.3%;
+    padding-top: 5% 0%;
 }
 }
 
@@ -763,11 +767,15 @@ width: 41%;
 .list-wrapper{
   display: block;
 }
-.news{
+.top{
   display: none;
 }
 .preservation{
   display: none;
+}
+.logo_header img {
+    width: 32.3%;
+    padding-top: 5% 0%;
 }
 }
 
@@ -788,12 +796,13 @@ width: 41%;
 .list-wrapper{
   display: none;
 }
-.news{
+.top{
   display: block;
 }
 .preservation{
   display: block;
 }
+
 }
 
 /* Большие экраны*/
@@ -804,13 +813,13 @@ width: 41%;
 .list-wrapper{
   display: none;
 }
-.news{
+.top{
   display: block;
 }
 .preservation{
   display: block;
 }
- }
+
 
  /*iPhone 4*/
  @media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {}
