@@ -1,4 +1,3 @@
-
 var expandingAnimationTiming = 400;
 var collapsingAnimationTiming = 200;
 
@@ -28,7 +27,7 @@ function expandElement(elementToExpand) {
   var expandWidth = $(".list-wrapper").outerWidth();
   var expandHeight = $(".list-wrapper").outerHeight();
 
-  $(".list-wrapper").css({
+  $(".body").css({
     top: netOffset,
     position: "fixed",
     overflow: "hidden",

@@ -177,22 +177,42 @@ body {
     background-color: #04255c;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 26%;
     z-index: 99;
 }
 
 .sidenav a {
-    padding: 0px 8px 8px 0px;
+    padding: 0px 8px 8px 11%;
     text-decoration: none;
-    font-size: 8vw;
+    font-size: 16vw;
     color: #fff;
     display: block;
-    transition: 0.2s;
+    
     text-transform: uppercase;
+  
+    text-decoration: none;
+    margin: 0;
+    font-family: inherit;
+    font-style: inherit;
+  
+ 
+    line-height: inherit;
+    vertical-align: baseline;
+    border: 0;
+    font-family: Druk,Impact,sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 }
 a.menu-list {
   padding-top: 3%;
-    padding-left: 33%;
+}
+.menu-list_img{
+    position: absolute;
+    top: 0;
+    font-size: 13.5vw;
+    margin-left: 50px;
+    padding: 0px;
 }
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
@@ -201,8 +221,8 @@ a.menu-list {
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 70px;
-    font-size: 7.5vw;
+    right: 8%;
+    font-size: 13.5vw;
     margin-left: 50px;
   padding: 0px;
 }
@@ -351,4 +371,110 @@ text-decoration: none;
 .adaptive h3 {               
  font-weight: 300;
 }
+/*media*/
+
+/*NEWS*/
+/*Смартфоны (Портрет и ландшафтный)*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+.list-wrapper{
+  display: block;
+}
+
+.adaptive{
+  display: none;
+}
+.logo_header img {
+    width: 32.3%;
+    padding-top: 5% 0%;
+}
+}
+
+/*Смартфоны (ландшафтный)*/
+@media only screen and (min-width : 321px) {
+.adaptive{
+  display: none;
+}
+.list-wrapper{
+  display: block;
+
+}
+.logo_header img {
+    width: 32.3%;
+    padding-top: 5% 0%;
+}
+}
+footer {
+  display: none;
+}
+
+/*Смартфоны (portrait)*/
+@media only screen and (max-width : 320px) {
+
+.list-wrapper{
+  display: block;
+}
+
+.logo_header img {
+    width: 32.3%;
+    padding-top: 5% 0%;
+}
+.adaptive{
+  display: none;
+}
+footer {
+  display: none;
+}
+}
+
+/*iPads (Портрет и Ландшафтный)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+
+ /*iPads (Ландшафтный)*/
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+ /*iPads (Портрет)*/
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+ 
+/*Настольные компьютеры и ноутбуки*/
+@media only screen and (min-width : 1224px) {
+
+.list-wrapper{
+  display: none;
+}
+.adaptive{
+  display: block;
+}
+footer {
+  display: block;
+}
+.logo_header img {
+    width: 9.3%;
+  
+}
+
+}
+
+/* Большие экраны*/
+ @media only screen and (min-width : 1824px) {
+.adaptive{
+  display: block;
+}
+.list-wrapper{
+  display: none;
+}
+footer {
+  display: block;
+}
+.logo_header img {
+    width: 9.3%;
+    
+}
+}
+
+
+
+ /*iPhone 4*/
+ @media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {}
+ 
 
