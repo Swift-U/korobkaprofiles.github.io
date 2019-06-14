@@ -34,6 +34,8 @@ function expandElement(elementToExpand) {
     "z-index": "11"
   });
 
+
+
   // преобразовать элемент расширения в фиксированное положение, не перемещая его
   elementToExpand.css({
     top: elementToExpand.position().top - $("body").scrollTop(),
@@ -123,7 +125,7 @@ function collapseElement(collapseButton) {
   $(".list-wrapper").css({
     top: 0,
     position: "absolute",
-    overflow: "inherit",
+    overflow: "initial",
     "z-index": "1"
   });
   

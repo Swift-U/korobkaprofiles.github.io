@@ -1,11 +1,11 @@
 html, body {
  position: relative;
  height: 100%;
-     /*overflow-x: auto;*/
+     overflow-x: hidden;
 }
 
 html{
-  overflow-x: auto;
+  /*overflow-x: hidden;*/
 }
 
 body {
