@@ -28,7 +28,7 @@ function expandElement(elementToExpand) {
   var expandHeight = $(".list-wrapper").outerHeight();
 
   $(".list-wrapper").css({
-    // top: netOffset,
+    top: netOffset,
     position: "fixed",
     overflow: "hidden",
     "z-index": "11"
