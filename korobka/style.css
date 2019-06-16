@@ -1,7 +1,7 @@
 html, body {
  position: relative;
  height: 100%;
-     overflow-x: hidden;
+ /*    overflow-x: hidden;*/
 }
 
 html{
@@ -13,7 +13,7 @@ body {
   width: 100%;
   margin: 0 auto;
   height: 100vh;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   font-family: 'Roboto', sans-serif; 
   /* overflow-y: hidden;*/
 }
