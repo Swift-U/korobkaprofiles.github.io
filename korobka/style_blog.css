@@ -1,6 +1,6 @@
 html, body {
  overscroll-behavior: none;
- overflow-y: hidden;
+ overflow-x: hidden;
 }
 /**/
 
@@ -12,7 +12,7 @@ body {
   
   width: 100%;
   margin: 0 auto;
-  overflow-x: hidden;
+  overflow-y: hidden;
   font-family: 'Roboto', sans-serif; 
 }
 .flexContainer {
@@ -107,18 +107,7 @@ body {
     font-size: 0.9vw;
 
   }
-/* text-decoration: none;
-    color: #fff;
-    background: #03265e;
-    padding:8%;
-  } .nav_link:hover{*/
-   
-/*  .active_two{
-  text-decoration: none;
-    color: #fff;
-    background: #03265e;
-    padding:8%;
-  }*/
+
   
     .portfolio_link {
     text-decoration: none;
