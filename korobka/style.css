@@ -3,7 +3,7 @@ html, body {
  position: relative;
  /*height: 100%;*/
      overflow-x:hidden!important;
-     overflow-y: hidden!important;
+     overflow-y:hidden!important;
 }
 
 
@@ -1136,6 +1136,10 @@ button {
 
 /*Смартфоны (ландшафтный)*/
 @media only screen and (min-width : 321px) {
+ html, body {
+     overflow-x:hidden!important;
+     overflow-y:hidden!important;
+}
   .small{
  display: block;
     width: 89.333333%;
@@ -1487,6 +1491,10 @@ padding: 3% 10% 9% 10%;
     color: #fff;
     /**/
 
+}
+ html, body {
+     overflow-x:auto!important;
+     overflow-y:hidden!important;
 }
 
 
