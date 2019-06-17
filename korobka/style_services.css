@@ -102,18 +102,7 @@ body {
     font-size: 0.9vw;
 
   }
-/* text-decoration: none;
-    color: #fff;
-    background: #03265e;
-    padding:8%;
-  } .nav_link:hover{*/
-   
-/*  .active_two{
-  text-decoration: none;
-    color: #fff;
-    background: #03265e;
-    padding:8%;
-  }*/
+
   
     .portfolio_link {
     text-decoration: none;
@@ -126,8 +115,11 @@ body {
     list-style-type: none;
     font-size: 1.1vw;
     text-align: right;
-     padding:3%;
+     padding:2%;
      margin: -1.3%;
+          margin-top: 0%!important; 
+     margin-bottom: 0%!important; 
+}
 
   }
   .nav_menu {
