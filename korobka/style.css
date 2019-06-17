@@ -2,7 +2,7 @@ html, body {
   overscroll-behavior: auto;
  position: relative;
  /*height: 100%;*/
-     overflow-x: overlay;
+     overflow-x:auto;
      overflow-y: hidden;!important;
 }
 
