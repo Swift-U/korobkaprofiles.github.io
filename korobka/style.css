@@ -3,7 +3,7 @@ html, body {
  position: relative;
  /*height: 100%;*/
      overflow-x: hidden;
-     overflow-y: scroll!important;
+     overflow-y: hidden;!important;
 }
 
 
