@@ -2,8 +2,8 @@ html, body {
   overscroll-behavior: auto;
  position: relative;
  /*height: 100%;*/
-     overflow-x:height;
-     overflow-y: hidden;!important;
+     overflow-x:height!important;
+     overflow-y: hidden!important;
 }
 
 
