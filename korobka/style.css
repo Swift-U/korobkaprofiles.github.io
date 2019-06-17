@@ -2,7 +2,7 @@ html, body {
   overscroll-behavior: auto;
  position: relative;
  /*height: 100%;*/
-     overflow-x: auto;
+     overflow-x: auto!important;
      overflow-y: scroll!important;
 }
 
@@ -789,7 +789,7 @@ font-weight: 300;
 
 .top_icon, .bottom {
   
-  overflow: hidden;
+ /* overflow: hidden;*/
   margin: 0 auto 0%;
    display: grid;
    margin-left: 0px;
@@ -1205,9 +1205,7 @@ button {
   #block_day_fool{
     display: none;
   }
-    .list-wrapper{
-    display: block;
-}
+
 .scroll_container{
   padding-bottom: 20%;
   padding-top: 95%;
@@ -1426,9 +1424,7 @@ padding: 3% 10% 9% 10%;
   #block_day_fool{
     display: block;
   }
-    .list-wrapper{
-    display: none;
-  }
+
   #icon_mail{
   display: none;
  }
@@ -1454,9 +1450,7 @@ padding: 3% 10% 9% 10%;
   #block_day_fool{
     display: block;
   }
-  .list-wrapper{
-    display: none;
-  }
+
   .logo_header{
     width: 20%;
    padding-top: 8%;
@@ -1570,9 +1564,7 @@ padding: 3% 10% 9% 10%;
   #block_day_fool{
     display: block;
   }
-    .list-wrapper{
-    display: none;
-  }
+ 
   #icon_mail{
   display: none;
  }
@@ -1603,9 +1595,7 @@ padding: 3% 10% 9% 10%;
   #block_day_fool{
     display: block;
   }
-  .list-wrapper{
-    display: none;
-  }
+ 
   .logo_header{
     width: 20%;
    padding-top: 8%;
