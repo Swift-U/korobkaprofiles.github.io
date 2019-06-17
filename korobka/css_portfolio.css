@@ -255,7 +255,7 @@ a.menu-list {
   text-align: center;
   width: 7em;
   
- /* font-family: 'IBM Plex Sans', sans-serif;*/
+
   font-size: 1.5em;
 
   display: inline-block;
@@ -283,9 +283,16 @@ a.menu-list {
 
 }
 
+/*name_port_section_1*/
+.name_port_section{
+  color: rgb(202, 202, 202);
+    background: #fff;
+    text-align: left;
+    font-size: 1.74vw;
+    padding: 0% 7%;
+    width: 37%;
+}
 
-
-/*sec_2*/
 
 
 
@@ -362,23 +369,18 @@ a.menu-list {
 /**/
 
 .small {
-  width: 19.333333%;
+  width: 43.333333%;
  /* padding-bottom: 19.833333%;*/
   margin-bottom: 2%;
-  margin-left: 6.3%;
+  margin-left: 4.3%;
   display: block;
-/*  background: #000;*/
+  background: #000;
   float: left;
   position:relative;
-  margin-right: -3%;
+  margin-right: 0%;
   border-radius: 2%;
   overflow:hidden;
   
-  
-  &:last-child {
-    margin-bottom: 0;
-    /*background: #F09609;*/
-  }
 }
 .small {
   -moz-transition: all 0.5s ease-out;
@@ -456,6 +458,160 @@ a.menu-list {
 }
 
 
+/*photo_fool*/
+.img{
+  background: url(Img/news/rpl_designaward.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img1{
+  background: url(Img/news/f76d0279255739.5cbdffd868665.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img2{
+  background: url(Img/news/36057777777491.5c963762dc3a6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img3{
+  background: url(Img/news/moszoo-1200.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.img4{
+  background: url(Img/news/31274278490961.5ca6218f223a6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img5{
+  background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img6{
+  background: url(Img/news/16d14d78680719.5cac32ded20a4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ /*img_news_fool*/
+ .small .img1:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+
+
+ }
+ .small .img1 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:100%;
+  padding-bottom: 100%;
+      opacity: 0.7;
+ }
+  .small .img2:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+
+
+ }
+ .small .img2 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:100%;
+  padding-bottom: 100%;
+      opacity: 0.7;
+ }
+  .small .img3:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+
+
+ }
+ .small .img3 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:100%;
+  padding-bottom: 100%;
+      opacity: 0.7;
+ }
+  .small .img4:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+
+
+ }
+ .small .img4 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:100%;
+  padding-bottom: 100%;
+      opacity: 0.7;
+ }
+  .small .img5:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+
+
+ }
+ .small .img5 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:100%;
+  padding-bottom: 100%;
+      opacity: 0.7;
+ }
+  .small .img6:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+
+
+
+ }
+ .small .img6 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:100%;
+  padding-bottom: 100%;
+      opacity: 0.7;
+ }
+/*эфекты мобильных иконок*/
+
+ .large .text_in_news:hover{
+ color: #de2727;
+ }
+ .text_in_news_small{
+      position: absolute;
+    display: block;
+    bottom: 0;
+    padding: 5% 10%;
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+    font-size: 1vw;
+    display: block;
+    padding: none;
+    font-size: 3vw;
+    background: #fff;
+    width: 80.14%;
+    height: 20%;
+    padding: 3% 10% 9% 10%;
+    color: #000;
+ }
+ .text_in_news_small:hover{
+ color: #04275f;
+ }
 
 
 
@@ -489,9 +645,7 @@ a.menu-list {
 /*Смартфоны (Портрет и ландшафтный)*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-.list-wrapper{
-  display: block;
-}
+
 
 .preservation{
   display: none;
@@ -507,9 +661,14 @@ a.menu-list {
 .portfolio_section{
   display: none;
 }
-.list-wrapper{
+.small{
   display: block;
-
+    width: 89.333333%;
+    padding-bottom: 100.933333%;
+    margin-left: 5%;
+    float: none;
+    margin-top: 18%;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
 }
 .logo_header img {
     width: 32.3%;
@@ -519,11 +678,23 @@ a.menu-list {
 footer {
   display: none;
 }
+.media_sec_one,.media_sec_two,.media_sec_three {
+  display: block;
+}
 
 /*Смартфоны (portrait)*/
 @media only screen and (max-width : 320px) {
 
-.list-wrapper{
+.small{
+  display: block;
+    width: 89.333333%;
+    padding-bottom: 100.933333%;
+    margin-left: 5%;
+    float: none;
+    margin-top: 18%;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+}
+.media_sec_one,.media_sec_two,.media_sec_three {
   display: block;
 }
 
@@ -564,15 +735,44 @@ footer {
     width: 9.3%;
   
 }
+.media_sec_one,.media_sec_two,.media_sec_three {
+  display: none;
+}
+.small{
+  display: block;
+    width: 89.333333%;
+    padding-bottom: 0%;
+    margin-left: 5%;
+    float: none;
+    margin-top: 0%;
+
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+}
 
 }
+
+
 
 /* Большие экраны*/
  @media only screen and (min-width : 1824px) {
 .portfolio_section{
   display: block;
 }
-.list-wrapper{
+.small {
+  width: 43.333333%;
+
+  margin-bottom: 2%;
+  margin-left: 4.3%;
+  display: block;
+
+  float: left;
+  position:relative;
+  margin-right: 0%;
+  border-radius: 2%;
+  overflow:hidden;
+  
+}
+.media_sec_one,.media_sec_two,.media_sec_three {
   display: none;
 }
 footer {

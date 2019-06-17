@@ -814,6 +814,10 @@ width: 41%;
 .preservation{
   display: block;
 }
+.logo_header img {
+    width: 9.3%;
+    padding-top: 5% 0%;
+}
 
 }
 
@@ -822,8 +826,9 @@ width: 41%;
 .news_fool {
   display: block;
 }
-.list-wrapper{
-  display: none;
+.logo_header img {
+    width: 9.3%;
+    padding-top: 5% 0%;
 }
 .top{
   display: block;

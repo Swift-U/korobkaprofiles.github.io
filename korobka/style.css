@@ -3,7 +3,7 @@ html, body {
  position: relative;
  /*height: 100%;*/
      overflow-x:hidden!important;
-     overflow-y:hidden!important;
+     overflow-y:auto!important;
 }
 
 
@@ -1493,8 +1493,8 @@ padding: 3% 10% 9% 10%;
 
 }
  html, body {
-     overflow-x:auto!important;
-     overflow-y:hidden!important;
+     overflow-x:hidden!important;
+     overflow-y:auto!important;
 }
 
 
@@ -1629,6 +1629,10 @@ padding: 3% 10% 9% 10%;
 }
 .media_sec_one,.media_sec_two,.media_sec_three {
   display: none;
+}
+ html, body {
+     overflow-x:hidden;!important;
+     overflow-y:auto!important;
 }
 
 
