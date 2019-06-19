@@ -789,9 +789,9 @@ font-weight: 300;
 
 .top_icon, .bottom {
   
- /* overflow: hidden;*/
-  margin: 0 auto 0%;
-   display: grid;
+  overflow: hidden;
+  margin: 0 auto 0%!important;
+   display: grid!important;
    margin-left: 0px;
        width: 100%;
     max-width: 1500px;
@@ -1386,11 +1386,13 @@ padding: 3% 10% 9% 10%;
     color: rgb(202, 202, 202);
     background: #fff;
     text-align: left;
+    font-size: 6.74vw;
   }
   .day{
     background: #fff;
     color: #04245d;
     text-align:right;
+    font-size: 7.74vw;
   }
   .top_icon, .bottom{
     text-align: center;
@@ -1403,8 +1405,8 @@ padding: 3% 10% 9% 10%;
 }
 .small_top{
   width:31%;
-  margin-left: -41%;
-  box-shadow:0 0 2px rgba(0,0,0,0.3);
+  margin-left: -38%;
+  
 }
  .sec_2{
     display: block;
@@ -1507,12 +1509,12 @@ padding: 3% 10% 9% 10%;
       width: 20.333333%;
   padding-bottom: 20.933333%;
   margin-bottom: 2%;
-  margin-left: 12%;
+  margin-left: 20%;
   display: block;
   background: #000;
   float: right;
   position:relative;
-  margin-right: -3%;
+  margin-right: -11%;
   border-radius: 2%;
   overflow:hidden;
   margin-top: 0%; 
@@ -1529,11 +1531,13 @@ padding: 3% 10% 9% 10%;
     color: rgb(202, 202, 202);
     background: #fff;
     text-align: left;
+    font-size: 6.74vw;
   }
   .day{
     background: #fff;
     color: #04245d;
     text-align:right;
+    font-size: 7.74vw;
   }
   .top_icon, .bottom{
     text-align: center;
@@ -1547,8 +1551,8 @@ padding: 3% 10% 9% 10%;
 }
 .small_top{
   width:31%;
-  margin-left: -41%;
-  box-shadow:0 0 2px rgba(0,0,0,0.3);
+  margin-left: -38%;
+ 
 }
  .sec_2{
     display: block;

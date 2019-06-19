@@ -247,7 +247,7 @@ a.menu-list {
 }
 }
 
-.active_two {
+.active_twoo {
     display: inline-block;
     color:#002663;;
     line-height: 1;
@@ -255,7 +255,7 @@ a.menu-list {
     cursor: pointer;
 
 }
-.active_two:after {
+.active_twoo:after {
     background-color: #dfc9a2;
     display: block;
     content: "";
@@ -267,7 +267,7 @@ a.menu-list {
     width: 100%;
 }
 /*a:hover:after,*/
-.active_two:focus:after {
+.active_twoo:focus:after {
     width: 100%;
 }
 /*dddd*/
@@ -284,7 +284,7 @@ a.menu-list {
   margin-right: -3%;
   overflow:hidden;
   background: #fff;
-  padding-left: 3%; 
+ 
 }
 .small p{
   font-weight: 200;
