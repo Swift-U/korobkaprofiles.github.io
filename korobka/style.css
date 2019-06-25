@@ -91,7 +91,7 @@ body {
   } 
   .container-mid {
   width: 100%;
-  max-width: 85%; 
+  max-width: 91%; 
   padding: 0 15px;
   margin: 0 auto;
   } 
@@ -160,7 +160,7 @@ body {
   .logo_header{
       position: absolute;  
     padding-top: 8%;
-    margin-left: -2%;
+   /* margin-left: -2%;*/
       display: block;
     width: 20%;
     padding-bottom: 1%;
@@ -175,7 +175,7 @@ body {
   .logo_footer{
       position: absolute;  
     padding-top: 8%;
-    margin-left: -2%;
+  /*  margin-left: -2%;*/
       display: block;
     width: 20%;
     padding-bottom: 1%;
@@ -481,36 +481,43 @@ font-weight: 300;
   background: url(Img/news/rpl_designaward.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
 .img1{
   background: url(Img/news/f76d0279255739.5cbdffd868665.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
 .img2{
   background: url(Img/news/36057777777491.5c963762dc3a6.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
 .img3{
   background: url(Img/news/moszoo-1200.jpeg);
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
 .img4{
   background: url(Img/news/31274278490961.5ca6218f223a6.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
 .img5{
   background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
 .img6{
   background: url(Img/news/16d14d78680719.5cac32ded20a4.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
  
 .large .img:hover{
@@ -1365,10 +1372,11 @@ padding: 3% 10% 9% 10%;
   display: block;
   padding: none; 
       font-size: 4vw;
-    background: #fff;
+   background: none;
     width: 100%;
     height: 20%;
-    text-align: center;
+    text-align: left;
+  
     color: #000;
 }
 
@@ -1488,7 +1496,7 @@ padding: 3% 10% 9% 10%;
 }
 .text_in_news_small{
   display: block;
-  padding: 5% 10%; 
+  padding: 0% 10%; 
       font-size: 1vw;
     color: #fff;
     /**/

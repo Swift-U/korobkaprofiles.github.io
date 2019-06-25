@@ -115,7 +115,7 @@ body {
     list-style-type: none;
     font-size: 1.1vw;
     text-align: right;
-     padding:2%;
+     padding:2% 3%!important;
      margin: -1.3%;
           margin-top: 0%!important; 
      margin-bottom: 0%!important; 
@@ -146,9 +146,7 @@ body {
      position: relative;
      padding-top: 11%;
   }
-  .logo_header{
-  
-  }
+ 
    .logo_header img{
     display: block;
     width: 9.3%;
@@ -156,6 +154,7 @@ body {
     margin: 0 auto;
     padding: 2% 1%;
     position: absolute;
+
 
   }
 
@@ -441,10 +440,13 @@ footer {
   display: block;
 }
 .logo_header img {
-    width: 9.3%;
+    width: 40.3%!important;
   
 }
-
+.logo_header  {
+  padding-top: 2%!important;
+  
+}
 }
 
 /* Большие экраны*/
@@ -459,7 +461,7 @@ footer {
   display: block;
 }
 .logo_header img {
-    width: 9.3%;
+    width: 40.3%!important;
     
 }
 }
