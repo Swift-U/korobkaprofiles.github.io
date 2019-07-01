@@ -355,8 +355,8 @@ width: 41%;
     font-weight: 500;
     display: block;
     text-align: -webkit-center;
-    padding: 3% 0% 3% 14%;
-    font-size: 5.74vw;
+    padding: 0% 3% 3% 14%!important;
+    font-size: 6.74vw!important;
     margin: 0.4%;
  }
  .month{
@@ -365,7 +365,7 @@ width: 41%;
     padding: 2rem;
       color: rgb(202, 202, 202);
     background: #fff;
-    padding: 6% 0% 0% 0%;
+    padding: 0% 0% 0% 0%!important;
     text-align: left;
  }
  .calender{
@@ -597,12 +597,9 @@ width: 41%;
   float: right;
   position:relative;
   position: absolute;
+      margin-left: 3%!important;
   
-  
-  &:last-child {
-    margin-bottom: 0;
-    background: #F09609;
-  }
+
 }
 
 .small div, .large div {
@@ -750,6 +747,9 @@ width: 41%;
 .preservation{
   display: none;
 }
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:112%!important;
+}
 }
 
 /*Смартфоны (ландшафтный)*/
@@ -770,6 +770,9 @@ width: 41%;
     width: 32.3%;
     padding-top: 5% 0%;
 }
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:112%!important;
+}
 }
 
 /*Смартфоны (portrait)*/
@@ -787,6 +790,9 @@ width: 41%;
 .logo_header img {
     width: 32.3%;
     padding-top: 5% 0%;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:112%!important;
 }
 }
 
@@ -833,20 +839,23 @@ overflow: hidden;
 margin-top: 0%;
 }
 .text_in_news_small{
-  opacity: 0.7;
+  opacity: 1;
   height: 14%!important;
   
   text-align: inherit!important;
-  color: #04245d!important;
+  color: #fff!important;
   padding: 1% 10%!important;
 }
 .logo_header{
-  padding-top:4%!important;
+  padding-top:1.5%!important;
   
 }
 .logo_header img{
 
-  width: 37.3%!important;
+  width: 31.5%!important;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:100%!important;
 }
 
 }
@@ -880,6 +889,10 @@ position: relative;
 border-radius: 2%;
 overflow: hidden;
 margin-top: 0%;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:100%!important;
+}
 }
 
 

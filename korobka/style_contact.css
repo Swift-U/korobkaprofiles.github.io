@@ -24,6 +24,13 @@ body {
   flex: 1 1 0;
   width:42%;
 }
+ul{
+  display: flex;
+}
+li {
+  padding: 2%;
+  font-size: 1.3vw;
+}
 
 #fullImg {
   width: 100%;
@@ -311,7 +318,7 @@ a.menu-list {
 }
 .right_box{
   background:#002663;
-  color: #dfc9a2; 
+  color: #fff; 
 }
 .right_box p,h3,ul {
   padding: 1% 4%;
@@ -320,7 +327,7 @@ a.menu-list {
 }
 .contact_nav{
   text-decoration:none;
-  color: #dfc9a2; 
+  color: #fff; 
   font-weight: 300;
 }
 

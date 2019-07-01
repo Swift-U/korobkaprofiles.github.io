@@ -61,16 +61,18 @@ myPicturesArray5[5]=new PicHolder(1,6,"5-5","https://mir-s3-cdn-cf.behance.net/p
 document.getElementById("quote").innerHTML = arguments[0][randomNumber];
   document.getElementById("source").innerHTML = arguments[1][randomNumber];
 };
+// Маркитинг
 var dertaArr=[`
 <ul>
-<li class="nav_link"><a href="#" class="nav_link">Лендинг</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Сайт под ключ</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Сайт визитка</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Корпаративный сайт</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Готовые решения</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Настрока рекламы</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Настрока SEO</a></li>
+<li class="nav_link"><a href="#" class="nav_link">...</a></li>
+<li class="nav_link"><a href="#" class="nav_link">...</a></li>
+<li class="nav_link"><a href="#" class="nav_link">...</a></li>
 </ul>
 `];
   var dertaSrc=[""];
+  // 
 var famousArr=[`
 <ul>
 <li class="nav_link"><a href="#" class="nav_link">Дизайн сайта</a></li>
@@ -80,23 +82,33 @@ var famousArr=[`
 <li class="nav_link"><a href="#" class="nav_link">Иной дизайн</a></li>
 </ul>
 `];
+// Дизайн
   var famousSrc =[""];
 var moviesArr=[`
 <ul>
-<li class="nav_link"><a href="#" class="nav_link">Настрока SEO</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Link 2</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Link 3</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Разработка логотипа</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Дизайн сайта</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Дизайн визитки</a></li>
 </ul>
 `];
+// разработка
   var moviesSrc=[""];
 var famousArr=[`
 <ul>
-<li class="nav_link"><a href="#" class="nav_link">Link 1</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Link 2</a></li>
-<li class="nav_link"><a href="#" class="nav_link">Link 3</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Сайт под ключ</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Лендинг</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Магазин</a></li>
 </ul>
 `];
+// Подержка
  var booksSrc=[""];
+ var booksArr=[`
+<ul>
+<li class="nav_link"><a href="#" class="nav_link">Устранения неполоадок</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Модернизация сайта</a></li>
+<li class="nav_link"><a href="#" class="nav_link">Оптимизация</a></li>
+</ul>
+`];
 
 function tweetIt () {
   var phrase = document.getElementById('quote').innerText;

@@ -379,6 +379,9 @@ text-decoration: none;
     width: 32.3%;
     padding-top: 5% 0%;
 }
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:112%!important;
+}
 }
 
 /*Смартфоны (ландшафтный)*/
@@ -408,13 +411,16 @@ footer {
 
 .logo_header img {
     width: 32.3%;
-    padding-top: 5% 0%;
+    padding: 0% 0%;
 }
 .adaptive{
   display: none;
 }
 footer {
   display: none;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:112%!important;
 }
 }
 
@@ -440,12 +446,15 @@ footer {
   display: block;
 }
 .logo_header img {
-    width: 40.3%!important;
+    width: 31.5%!important;
   
 }
 .logo_header  {
-  padding-top: 2%!important;
+  padding-top: 1.5%!important;
   
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:100%!important;
 }
 }
 
@@ -461,8 +470,21 @@ footer {
   display: block;
 }
 .logo_header img {
-    width: 40.3%!important;
+     width: 31.5%!important;
     
+}
+.animated.delay-2s {
+    animation-duration: 1s;
+    animation-delay: 0.8s!important;
+    animation-iteration-count: inherit;
+}
+.animated.delay-1s {
+    animation-duration: 1s;
+    animation-delay: 0.6s!important;
+    animation-iteration-count: inherit;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:100%!important;
 }
 }
 

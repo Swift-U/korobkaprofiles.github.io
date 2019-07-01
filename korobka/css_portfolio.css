@@ -33,6 +33,16 @@ body {
   color: white;
   box-shadow: "10px 20px 30px silver";
 }
+.animated.delay-1s {
+    animation-duration: 1s;
+    animation-delay: 0.6s!important;
+    animation-iteration-count: inherit;
+    }
+    .animated.delay-2s {
+    animation-duration: 1s;
+    animation-delay: 0.8s!important;
+    animation-iteration-count: inherit;
+}
 
 .fullImgClass {
   float: left;
@@ -456,6 +466,10 @@ a.menu-list {
 	padding-bottom: 5%;
     width: 100%;
 }
+.portfolio_media_text{
+  font-size: 6vw;
+  color: rgb(202, 202, 202);
+}
 
 
 /*photo_fool*/
@@ -670,6 +684,9 @@ a.menu-list {
     margin-top: 18%;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
 }
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:112%!important;
+}
 .logo_header img {
     width: 32.3%;
     padding-top: 5% 0%;
@@ -707,6 +724,12 @@ footer {
 }
 footer {
   display: none;
+}
+.portfolio_media_text{
+  display: block;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:112%!important;
 }
 }
 
@@ -748,6 +771,9 @@ footer {
 
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
 }
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:100%!important;
+}
 
 }
 
@@ -781,6 +807,12 @@ footer {
 .logo_header img {
     width: 9.3%;
     
+}
+.portfolio_media_text{
+  display: none;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+  padding-bottom:100%!important;
 }
 }
 
