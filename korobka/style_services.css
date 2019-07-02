@@ -173,25 +173,15 @@ body {
 }
 
 .sidenav a {
-    padding: 0px 8px 8px 11%;
-    text-decoration: none;
+   padding: 0px 8px 8px 11%;
     font-size: 16vw;
     color: #fff;
     display: block;
-    
     text-transform: uppercase;
-  
     text-decoration: none;
     margin: 0;
-    font-family: inherit;
-    font-style: inherit;
   
- 
-    line-height: inherit;
-    vertical-align: baseline;
-    border: 0;
-    
-    text-transform: uppercase;
+
     cursor: pointer;
 }
 }
