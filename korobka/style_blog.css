@@ -750,6 +750,9 @@ width: 41%;
 .img1,.img2,.img3,.img4,.img5,.img6{
   padding-bottom:112%!important;
 }
+.day{
+  font-size: 9.75vw!important;
+}
 }
 
 /*Смартфоны (ландшафтный)*/
@@ -762,6 +765,9 @@ width: 41%;
 }
 .top{
   display: none;
+}
+.day{
+  font-size: 9.75vw!important;
 }
 .preservation{
   display: none;
@@ -779,6 +785,9 @@ width: 41%;
 @media only screen and (max-width : 320px) {
 .news_fool {
   display: none;
+}
+.day{
+  font-size: 9.75vw!important;
 }
 
 .top{
@@ -857,6 +866,9 @@ margin-top: 0%;
 .img1,.img2,.img3,.img4,.img5,.img6{
   padding-bottom:100%!important;
 }
+.day{
+   font-size: 6.74vw!important;
+}
 
 }
 
@@ -892,6 +904,9 @@ margin-top: 0%;
 }
 .img1,.img2,.img3,.img4,.img5,.img6{
   padding-bottom:100%!important;
+}
+.day{
+   font-size: 6.74vw!important;
 }
 }
 
