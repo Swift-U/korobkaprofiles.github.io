@@ -179,6 +179,146 @@ body {
 
   }
 
+/*photo_small*/
+.img_korobka{
+  background: url(img/body/logo/logo_icon_02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_por_1{
+  background: url(Img/body/mini_test2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_por_2{
+  background: url(Img/body/mini_test3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_por_3{
+  background: url(Img/body/mini_test4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_por_4{
+  background: url(Img/body/mini_test5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_por_5{
+  background: url(Img/body/mini_test5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_por_6{
+  background: url(Img/body/vizitka_test.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+  .img_por_7{
+  background: url(Img/body/vizitka_test.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/**/
+
+      .small .img_por_1:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
+
+
+ }
+ .small .img_por_1  {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:98%;
+  padding-bottom: 112%;
+      opacity: 0.87;
+      }
+      .small .img_por_2:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
+
+
+ }
+ .small .img_por_2 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:98%;
+  padding-bottom: 112%;
+      opacity: 0.87;
+      }
+      .small .img_por_3:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
+
+
+ }
+ .small .img_por_3 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:98%;
+  padding-bottom: 112%;
+      opacity: 0.87;
+      }
+      .small .img_por_4:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
+
+
+ }
+ .small .img_por_4 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:98%;
+  padding-bottom: 112%;
+      opacity: 0.87;
+      }
+      .small .img_por_5:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
+
+
+ }
+ .small .img_por_5 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:98%;
+  padding-bottom: 112%;
+      opacity: 0.87;
+      }
+
+ .small .img_por_6 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:98%;
+  padding-bottom: 112%;
+      opacity: 0.87;
+      }
+       .small .img_por_7 {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ width:98%;
+  padding-bottom: 112%;
+      opacity: 0.87;
+      }
+
+
+
+
 .sidenav {
     height: 100%;
     width: 0;

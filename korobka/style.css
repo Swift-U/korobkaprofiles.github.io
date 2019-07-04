@@ -450,41 +450,41 @@ font-weight: 300;
   background-position: center;
 }
 .img_por_1{
-  background: url(Img/news/rpl_designaward.jpg);
+  background: url(Img/body/mini_test2.jpg);
   background-size: cover;
   background-position: center;
 }
 .img_por_2{
-  background: url(Img/news/rpl_designaward.jpg);
+  background: url(Img/body/mini_test3.jpg);
   background-size: cover;
   background-position: center;
 }
 .img_por_3{
-  background: url(Img/news/rpl_designaward.jpg);
+  background: url(Img/body/mini_test4.jpg);
   background-size: cover;
   background-position: center;
 }
 .img_por_4{
-  background: url(Img/news/rpl_designaward.jpg);
+  background: url(Img/body/mini_test5.jpg);
   background-size: cover;
   background-position: center;
 }
-.img_por_5{
-  background: url(Img/news/rpl_designaward.jpg);
+/*.img_por_5{
+  background: url(Img/body/mini_test5.jpg);
   background-size: cover;
   background-position: center;
-}
+}*/
 
 
 /*photo_fool*/
 .img{
-  background: url(Img/news/rpl_designaward.jpg);
+  background: url(Img/news/f76d0279255739.5cbdffd868665.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
 .img1{
-  background: url(Img/news/f76d0279255739.5cbdffd868665.jpg);
+  background: url(Img/news/16d14d78680719.5cac32ded20a4.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
@@ -496,29 +496,30 @@ font-weight: 300;
   border-radius: 2%;
 }
 .img3{
-  background: url(Img/news/moszoo-1200.jpeg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 2%;
-}
-.img4{
   background: url(Img/news/31274278490961.5ca6218f223a6.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
-.img5{
+.img4{
   background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
-.img6{
-  background: url(Img/news/16d14d78680719.5cac32ded20a4.jpg);
+.img5{
+  background: url(Img/news/stoloto-quest-600.png);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
+.img6{
+  background: url(Img/news/moszoo-1200.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 2%;
+}
+
  
 .large .img:hover{
  -webkit-transform: scale(1.1);
@@ -565,9 +566,9 @@ font-weight: 300;
 
 /*img_news_small*/
 .small .img_korobka:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
 
 
  }
@@ -575,83 +576,83 @@ font-weight: 300;
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
- width:97%;
+ width:98%;
   padding-bottom: 111%;
       opacity: 0.87;
       }
 
-      .small .img1:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+      .small .img_por_1:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
 
 
  }
- .small .img1 {
+ .small .img_por_1  {
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
- width:100%;
+ width:98%;
   padding-bottom: 112%;
       opacity: 0.87;
       }
-      .small .img1:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+      .small .img_por_2:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
 
 
  }
- .small .img1 {
+ .small .img_por_2 {
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
- width:100%;
+ width:98%;
   padding-bottom: 112%;
       opacity: 0.87;
       }
-      .small .img1:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+      .small .img_por_3:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
 
 
  }
- .small .img1 {
+ .small .img_por_3 {
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
- width:100%;
+ width:98%;
   padding-bottom: 112%;
       opacity: 0.87;
       }
-      .small .img3:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+      .small .img_por_4:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
 
 
  }
- .small .img1 {
+ .small .img_por_4 {
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
- width:100%;
+ width:98%;
   padding-bottom: 112%;
       opacity: 0.87;
       }
-      .small .img1:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
+      .small .img_por_5:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
 
 
  }
- .small .img1 {
+ .small .img_por_5 {
  -moz-transition: all 1s ease-out;
  -o-transition: all 1s ease-out;
  -webkit-transition: all 1s ease-out;
- width:100%;
+ width:98%;
   padding-bottom: 112%;
       opacity: 0.87;
       }
@@ -1565,7 +1566,7 @@ padding: 3% 10% 9% 10%;
 }
 .small_top{
   width:31%;
-  margin-left: -35%;
+  margin-left: -38%;
  
 }
  .sec_2{
