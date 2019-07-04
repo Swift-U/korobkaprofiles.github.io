@@ -979,3 +979,128 @@ input::-moz-focus-inner {
 .animate {
   transition: opacity 0.08s ease-out, background 0.08s ease-out, color 0.08s ease-out, border 0.08s ease-out, max-height 0.08s ease-out, height 0.08s ease-out, width 0.08s ease-out;
 }
+
+
+
+
+/*media*/
+
+
+/*Смартфоны (ландшафтный)*/
+@media only screen and (min-width : 421px) {
+ html, body {
+     overflow-x:hidden!important;
+     overflow-y:hidden!important;
+}
+.text_fool{
+  display: none!important;
+}
+.right_box{
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+.ul_icon li {
+  text-align: center;
+      padding: 5%;
+    font-size: 4.3vw;
+}
+
+
+}
+
+/*Смартфоны (portrait)*/
+@media only screen and (max-width : 420px) {
+
+.text_fool{
+display: none!important;
+}
+.right_box{
+  float: none!important;
+  width: 100%!important;
+  text-align: center;
+}
+.ul_icon li {
+  text-align: center;
+      padding: 5%;
+    font-size: 4.3vw;
+}
+
+}
+
+/*iPads (Портрет и Ландшафтный)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+
+ /*iPads (Ландшафтный)*/
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+ /*iPads (Портрет)*/
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+ 
+/*Настольные компьютеры и ноутбуки*/
+@media  screen and (min-width : 1224px) {
+ html, body {
+     overflow-x:hidden!important;
+     overflow-y:auto!important;
+}
+.text_fool{
+display: block!important;
+}
+.right_box{
+  float: right!important;
+  width: 50%!important;
+}
+.ul_icon li {
+      padding: 2%;
+    font-size: 1.3vw;
+}
+.right_box{
+  
+
+  text-align: left;
+}
+}
+
+
+
+
+/* Большие экраны*/
+ @media only screen and (min-width : 1824px) {
+ html, body {
+     overflow-x:hidden!important;
+     overflow-y:auto!important;
+}
+.text_fool{
+display: block!important;
+}
+.right_box{
+  float: right!important;
+  width: 50%!important;
+}
+.ul_icon li {
+      padding: 2%;
+    font-size: 1.3vw;
+}
+.right_box{
+  
+  
+  text-align: left;
+}
+
+
+
+ }
+
+ /*iPhone 4*/
+ @media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {}
+ 
+
+
+ /**/
+
+
+
+
+
+
+
