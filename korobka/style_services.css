@@ -303,9 +303,14 @@ a.menu-list {
 }
 .link{
 padding: 2%;
-border-radius: 50%;
+border-radius: 25%;
 background: #04245d;
 text-decoration: none;
+}
+#a h3{
+ margin:0;
+      padding-left: 0%;
+          font-size: 1.14vw; 
 }
 
 @media screen and (max-width: 768px) {
