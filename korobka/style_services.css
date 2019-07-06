@@ -341,6 +341,13 @@ text-decoration: none;
 
 /* test */
 
+.text_box{
+    padding-bottom: 2.2%;
+}
+
+
+
+
 .adaptive div {               
   width:22.3%;
   padding-bottom: 2.2%;
@@ -348,9 +355,9 @@ text-decoration: none;
   background:#fff;
   display:inline-block;
   min-width:200px;
-  padding-left: 3%;
+  padding-left: 2%;
   text-align: left;
-  padding-top: 22%;
+
   font-weight: 200;
 }
     
