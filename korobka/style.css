@@ -931,19 +931,20 @@ font-weight: 300;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #04255c;
+    background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 26%;
+    padding-top: 39%;
     z-index: 99;
+
 }
 
 .sidenav a {
   padding: 0% 1% 6% 4%;
     font-size: 15vw;
-    color: #fff;
+    color: #04255c;
     display: block;
-    text-transform: uppercase;
+   
     text-decoration: none;
     margin: 0;
   
@@ -960,9 +961,9 @@ a.menu-list {
     margin-left: 50px;
     padding: 0px;
 }
-.sidenav a:hover, .offcanvas a:focus{
+/*.sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
-}
+}*/
 
 .sidenav .closebtn {
     position: absolute;
