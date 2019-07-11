@@ -26,13 +26,13 @@ color: #002663;
 /*photo*/
 .photo_hover1{
 	background: url(../Img/body/Arz_hover2.jpg);
-  /*  background-size: cover;*/
+    background-size: cover;
     background-position: center;
     padding-bottom: 33%;
 }
 .photo_hover2{
 	background: url(../Img/body/Arz_hover.jpg);
-  /*  background-size: cover;*/
+    background-size: cover;
     background-position: center;
     padding-bottom: 33%;
 }
