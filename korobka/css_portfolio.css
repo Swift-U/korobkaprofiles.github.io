@@ -350,9 +350,9 @@ a.menu-list {
   padding-top: 3%;
   
 }
-.sidenav a:hover, .offcanvas a:focus{
+/*.sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
-}
+}*/
 
 .sidenav .closebtn {
     position: absolute;

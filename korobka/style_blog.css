@@ -200,9 +200,9 @@ a.menu-list {
     margin-left: 50px;
     padding: 0px;
 }
-.sidenav a:hover, .offcanvas a:focus{
+/*.sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
-}
+}*/
 
 .sidenav .closebtn {
     position: absolute;
