@@ -30,3 +30,8 @@ color: #002663;
     background-position: center;
     padding-bottom: 90%;
 }
+
+
+
+@media only screen and (max-width : 1080px) {
+h3 { font-size: 4.14vw }
