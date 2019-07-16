@@ -282,10 +282,10 @@ a.menu-list {
   font-weight: 300;
 }
 .small {
-  -moz-transition: all 0.5s ease-out;
+/*  -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;*/
 }
 
 .small div{
