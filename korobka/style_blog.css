@@ -844,7 +844,7 @@ width: 41%;
      text-decoration: none;
     color: #000;
     list-style-type: none;
-    font-size: 1.1vw!important;
+  /*  font-size: 1.1vw!important;*/
   }
    .nav_link_footer li{
     list-style-type: none;
