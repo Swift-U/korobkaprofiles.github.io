@@ -326,7 +326,7 @@ font-weight: 500;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
-  margin-bottom: 5%;
+/*  margin-bottom: 5%;*/
   font-family: 'Roboto', sans-serif;
   padding: 1.2%;
   font-size: 0.7vw
@@ -346,7 +346,7 @@ font-weight: 500;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1%;
-
+  margin-top: 6%;
 }
 
 .btn-default{
@@ -478,43 +478,43 @@ font-weight: 300;
 
 /*photo_fool*/
 .img{
-  background: url(Img/news/f76d0279255739.5cbdffd868665.jpg);
+  background: url(Img/news/img_1/fc2d7682952835.5d2dc06f75358.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
 .img1{
-  background: url(Img/news/16d14d78680719.5cac32ded20a4.jpg);
+  background: url(Img/news/img_2/9a431d82273909.5d1f763665802.png);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
 .img2{
-  background: url(Img/news/36057777777491.5c963762dc3a6.jpg);
+  background: url(Img/news/img_3/9f9f4b82599577.5d22f32f8acb2.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
 .img3{
-  background: url(Img/news/31274278490961.5ca6218f223a6.jpg);
+  background: url(Img/news/img_4/2f7fb482217751.5d1e0d99554bb.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
 .img4{
-  background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
+  background: url(Img/news/img_5/10257b82252421.5d17cbc25e9fd.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
 .img5{
-  background: url(Img/news/stoloto-quest-600.png);
+  background: url(Img/news/img_6/8cc1cb82466257.5d1e1432cf42b.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2%;
 }
 .img6{
-  background: url(Img/news/moszoo-1200.jpeg);
+  background: url(Img/news/img_7/index_blog.png);
   background-size: cover;
   background-position: center;
   border-radius: 2%;

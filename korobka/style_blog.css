@@ -86,7 +86,7 @@ body {
 
 /*media*/
 .img_porr_1{
-  background: url(Img/news/31274278490961.5ca6218f223a6.jpg);
+  background: url(Img/news/img_1/fc2d7682952835.5d2dc06f75358.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -399,7 +399,7 @@ a.menu-list {
 
 }
 .img1{
-  background: url(Img/news/f76d0279255739.5cbdffd868665.jpg);
+  background: url(Img/news/img_1/fc2d7682952835.5d2dc06f75358.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 165%;
@@ -422,6 +422,56 @@ a.menu-list {
   background-position: center;
 padding-bottom: 165%;
 }
+.img5{
+  background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+.img6{
+  background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+.img7{
+  background: url(Img/news/img_1/fc2d7682952835.5d2dc06f75358.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+.img8{
+  background: url(Img/news/img_8/5e0da582103779.5d1359af37a82.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+.img9{
+  background: url(Img/news/img_9/56c78181894545.5d0cef2bccb2f.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+.img10{
+  background: url(Img/news/img_10/481f8381502573.5d0a8df5da7b2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+.img11{
+  background: url(Img/news/img_11/ca6ad281714127.5d08113c7b35c.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+.img12{
+  background: url(Img/news/img_12/948e8e76651795.5c7007c82e809.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 38%;
+}
+
+
 .text_in_news_small{
   position: absolute;
   display: block;
@@ -653,6 +703,36 @@ width: 41%;
  width:100%;
   padding-bottom: 100%;
       opacity: 0.7;
+ }
+  .small .img7 {
+  width:100%;
+  padding-bottom: 100%;
+  opacity: 0.7;
+ }
+  .small .img8 {
+  width:100%;
+  padding-bottom: 100%;
+  opacity: 0.7;
+ }
+  .small .img9 {
+  width:100%;
+  padding-bottom: 100%;
+  opacity: 0.7;
+ }
+  .small .img10 {
+  width:100%;
+  padding-bottom: 100%;
+  opacity: 0.7;
+ }
+  .small .img11 {
+  width:100%;
+  padding-bottom: 100%;
+  opacity: 0.7;
+ }
+  .small .img12 {
+  width:100%;
+  padding-bottom: 100%;
+  opacity: 0.7;
  }
 
 /*dddddd*/
