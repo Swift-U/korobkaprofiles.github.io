@@ -91,32 +91,57 @@ body {
   background-position: center;
 }
 .img_porr_2{
-  background: url(Img/news/36057777777491.5c963762dc3a6.jpg);
+  background: url(Img/news/img_10/481f8381502573.5d0a8df5da7b2.jpg);
   background-size: cover;
   background-position: center;
 }
 .img_porr_3{
-  background: url(Img/news/16d14d78680719.5cac32ded20a4.jpg);
+  background: url(Img/news/img_12/948e8e76651795.5c7007c82e809.jpg);
   background-size: cover;
   background-position: center;
 }
 .img_porr_4{
-  background: url(Img/news/moszoo-1200.jpeg);
+  background: url(Img/news/img_8/5e0da582103779.5d1359af37a82.jpg);
   background-size: cover;
   background-position: center;
 }
 .img_porr_5{
-  background: url(Img/news/stoloto-quest-600.png);
+  background: url(Img/news/img_7/index_blog.png);
   background-size: cover;
   background-position: center;
 }
 .img_porr_6{
-  background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
+  background: url(Img/news/img_6/8cc1cb82466257.5d1e1432cf42b.jpg);
   background-size: cover;
   background-position: center;
   }
   .img_porr_7{
-  background: url(Img/news/79ddfc79404437.5cc32f1fbe783.jpg);
+  background: url(Img/news/img_11/ca6ad281714127.5d08113c7b35c.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ .img_porr_8{
+  background: url(Img/news/img_8/5e0da582103779.5d1359af37a82.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ .img_porr_9{
+  background: url(Img/news/img_9/56c78181894545.5d0cef2bccb2f.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ .img_porr_10{
+  background: url(Img/news/img_10/481f8381502573.5d0a8df5da7b2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ .img_porr_11{
+  background: url(Img/news/img_11/ca6ad281714127.5d08113c7b35c.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ .img_porr_12{
+  background: url(Img/news/img_12/948e8e76651795.5c7007c82e809.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -173,7 +198,41 @@ body {
       background-size: cover;
     background-position: center;
       }
-
+ /*     .small .img_porr_8 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+            .small .img_porr_9 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+            .small .img_porr_10 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+            .small .img_porr_7 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+            .small .img_porr_7 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }*/
 
 .container-header {
   width: 100%;

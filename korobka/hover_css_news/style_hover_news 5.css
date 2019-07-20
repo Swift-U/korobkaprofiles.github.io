@@ -38,11 +38,83 @@ text-align: center;
 
 
 /*photo*/
-.photo_hover{
+.photo_hover1{
 	background: url(../Img/news/img_5/10257b82252421.5d17cbc25e9fd.jpg);
     background-size: cover;
     background-position: center;
     padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover2{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/b846b182252421.5d17cbc25e126.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover3{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/32ea7a82252421.5d17cbc25fdbb.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover4{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/9b74b182252421.5d17d57a4482b.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover5{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/f278d582252421.5d1a9c7f2e7d8.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 43%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover6{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/8e24a482252421.5d17ce2e54034.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 45%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover7{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/43761682252421.5d17ce2e54edf.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover8{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/b0801182252421.5d17ce2e549f2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover9{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/c9322d82252421.5d17ce87ce700.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 59%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover10{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/0acfc882252421.5d23bfe21404f.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 70%;
     margin:0 auto;
     width: 84%;
 }
@@ -69,6 +141,7 @@ margin-left: auto;
 padding-top: 3%;
 padding-bottom: 3%;
 font-family: PF Regal,PF Regal Text Pro,Georgia,serif;
+text-align: center;
 
 }
 

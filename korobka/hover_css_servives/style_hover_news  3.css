@@ -39,112 +39,85 @@ text-align: center;
 
 /*photo*/
 .photo_hover1{
-	background: url(../Img/news/img_7/index_blog.png);
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/9f9f4b82599577.5d22f32f8acb2.jpg);
     background-size: cover;
     background-position: center;
     padding-bottom: 50%;
     margin:0 auto;
     width: 84%;
 }
-
-.photo_hover3{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/f4a13173153387.5c013b917d6d5.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50%;
-    margin:0 auto;
-    width: 84%;
-}
-.photo_hover4{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/30e08973153387.5c0650c72d22c.png);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50%;
-    margin:0 auto;
-    width: 84%;
-}
-.photo_hover5{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/1e84d873153387.5c0650c72dbf9.png);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50%;
-    margin:0 auto;
-    width: 84%;
-}
-.photo_hover6{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/5c071073153387.5c0650c72c982.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50%;
-    margin:0 auto;
-    width: 84%;
-}
-.photo_hover7{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/e2b5d773153387.5c013b917cc9a.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50%;
-    margin:0 auto;
-    width: 84%;
-}
-.photo_hover8{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/fa053173153387.5c016f5418802.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50%;
-    margin:0 auto;
-    width: 84%;
-}
-.photo_hover9{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/514ac173153387.5c0650c72be20.png);
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 50%;
-    margin:0 auto;
-    width: 84%;
-}
-.photo_hover10{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/43884e73153387.5c0650c72e3b0.jpg);
+.photo_hover2{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/0c990482599577.5d22f32f8bb63.jpg);
     background-size: cover;
     background-position: center;
     padding-bottom: 100%;
     margin:0 auto;
     width: 84%;
 }
-.photo_hover11{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/00005873153387.5c1245c3bb0ce.jpg);
+.photo_hover3{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/83dc6482599577.5d22f32f8bea0.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 50%;
+    padding-bottom: 72%;
     margin:0 auto;
     width: 84%;
 }
-.photo_hover12{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/65423273153387.5c123c2c81342.png);
+.photo_hover4{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/68eb8b82599577.5d22f32f8b22a.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 50%;
+    padding-bottom: 72%;
     margin:0 auto;
     width: 84%;
 }
-.photo_hover13{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/b54cec73153387.5c0105819e90f.jpg);
+.photo_hover5{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/0bc3a882599577.5d22f32f8a125.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 50%;
+    padding-bottom: 72%;
     margin:0 auto;
     width: 84%;
 }
-.photo_hover14{
-	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/7caf4773153387.5c0126840f248.jpg);
+.photo_hover6{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/64131982599577.5d22f32f8a9ef.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 50%;
+    padding-bottom: 72%;
     margin:0 auto;
     width: 84%;
 }
-
-
+.photo_hover7{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/415ce182599577.5d22f32f899e4.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 72%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover8{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d8d2f482599577.5d22f32f8b75e.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 72%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover9{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3f90082599577.5d22f32f8a52a.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 72%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover10{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/90ef8782599577.5d22f32f89c8a.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 72%;
+    margin:0 auto;
+    width: 84%;
+}
 /*photo_text_bottom*/
 
 .photo_text_bottom{
@@ -168,7 +141,6 @@ margin-left: auto;
 padding-top: 3%;
 padding-bottom: 3%;
 font-family: PF Regal,PF Regal Text Pro,Georgia,serif;
-text-align: center;
 
 }
 

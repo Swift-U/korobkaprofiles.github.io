@@ -41,6 +41,9 @@ body {
 
   background-color: rgb(202, 202, 202);
 }
+.small{
+  background: #fff!important;
+}
 
 #buttonsDiv {
   width: 70%;
@@ -64,6 +67,29 @@ body {
     position: relative;
  
 }
+.text_in_news_small{
+      box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+
+}
+.text_in_news_small p{
+     color: #04275f!important;
+
+}
+.text_in_news_small h2{
+     color: #04275f!important;
+
+}
+.text_in_news_small{
+   padding: 3% 10% 0% 10%!important;
+}
+
+.text_box a{
+      text-decoration: none;
+    list-style-type: none;
+color: #000;
+}
+
+
 
 .picHold {
  
@@ -172,6 +198,87 @@ body {
     z-index: 99;
 
 }
+
+
+/*media*/
+.img_porr_1{
+  background: url(Img/services/media/yv.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_porr_2{
+  background: url(Img/services/media/vizitka.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_porr_3{
+  background: url(Img/services/media/chek2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_porr_4{
+  background: url(Img/services/media/Bezymyanny-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_porr_5{
+  background: url(Img/services/media/smm.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img_porr_6{
+  background: url(Img/body/smm.png);
+  background-size: cover;
+  background-position: center;
+  }
+
+
+
+.small .img_porr_1 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+
+.small .img_porr_2 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+
+.small .img_porr_3 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+      .small .img_porr_4 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+      .small .img_porr_5 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+      .small .img_porr_6 {
+  width:95%;
+  padding-bottom: 112%;
+  opacity: 0.87;
+      background-size: cover;
+    background-position: center;
+      }
+     /**/
 
 .sidenav a {
   padding: 0% 1% 6% 9%;

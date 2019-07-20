@@ -38,8 +38,80 @@ text-align: center;
 
 
 /*photo*/
-.photo_hover{
-	background: url(../Img/news/img_10/481f8381502573.5d0a8df5da7b2.jpg);
+.photo_hover1{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/c16feb81502573.5d0a91cc777b5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover2{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/02607e81502573.5d0a91cc79f4f.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover3{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/c3fa7081502573.5d0a91cc7a69c.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover4{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/5b697e81502573.5d0a91cc7af6e.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover5{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/6b664b81502573.5d0a91cc7acf9.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover6{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/481f8381502573.5d0a8df5da7b2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover7{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/c0a64481502573.5d0a91cc7a37e.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover8{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/438a4d81502573.5d08fc1bcb3e6.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover9{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/35ca3581502573.5d08fc1bcafe8.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+    margin:0 auto;
+    width: 84%;
+}
+.photo_hover10{
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/ee035381502573.5d0a91cc7aaa4.jpg);
     background-size: cover;
     background-position: center;
     padding-bottom: 50%;
