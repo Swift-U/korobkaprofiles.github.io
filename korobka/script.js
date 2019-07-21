@@ -1,4 +1,5 @@
 
+
 var header = document.getElementById("buttonsDiv");
 var btns = header.getElementsByClassName("albumBotton");
 for (var i = 0; i < btns.length; i++) {

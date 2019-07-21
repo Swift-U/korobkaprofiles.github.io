@@ -184,7 +184,7 @@ body {
   }
     .logo_footer img{
      display: block;
-    width: 76.3%;
+    width: 42%;
     height: auto;
   }
 
@@ -399,7 +399,7 @@ font-weight: 300;
   padding-bottom: 32%;
   display: inline-block; 
 }
- .day{
+/* .day{
  width: 41%;
     padding-bottom: 10%;
     background: #000;
@@ -423,7 +423,7 @@ font-weight: 300;
  .calender{
   width:20%;
   box-shadow: 0 0 2px rgba(0,0,0,0.3);
- }
+ }*/
 /**/
 .large, .small {
   -moz-transition: all 0.5s ease-out;
@@ -842,7 +842,7 @@ font-weight: 300;
     width: 32%;
     float: left;
     margin-right: 2%;
-    margin-top: 2%;
+    margin-top: -1%;
     &:last-child {
      margin-right: 0; 
     }
