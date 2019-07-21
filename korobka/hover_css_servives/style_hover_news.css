@@ -163,14 +163,14 @@ h3 { font-size: 4.14vw }
 
     @media only screen and (min-width: 321px){
 .logo_header img {
-    width: 71%!important;
+/*    width: 71%!important;*/
 }
 }
 
 @media screen and (max-width: 1080px){
     .logo_header img {
     display: block;
-    width: 29.3%;
+    width: 31.5%;
     height: auto;
     margin: 0 auto;
     padding: 9% 0%!important;

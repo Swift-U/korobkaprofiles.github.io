@@ -543,6 +543,13 @@ text-decoration: none;
   display: block;
 
 }
+.logo_header img {
+    display: block;
+    width: 31.5%!important;
+    height: auto;
+}
+
+
   /*nav_footer*/
   .nav_link_footer{
      text-decoration: none;
