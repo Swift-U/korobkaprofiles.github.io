@@ -26,6 +26,48 @@ body {
   width:42%;
 }
 
+/**/
+.preview{
+  height: 30%!important;
+  width:100%;
+    padding-top: 5%;
+  
+   padding-bottom: 5%;
+   font-family: PF Regal,PF Regal Text Pro,Georgia,serif;
+font-style: 2vw;
+}
+.preview p {
+  color: #787878;
+ 
+  text-align: center;
+
+display: inline-block;
+
+}
+.preview h3{
+    color: #002663;
+    text-align: center;
+    padding: 0%;
+        font-size: 5.14vw;
+}
+.preview h1{
+    color: #000;
+    text-align: center;
+     font-weight: 200;
+}
+.preview_text{
+  max-width: 650px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
+
+/**/
+
+
+
+
+
 #fullImg {
   width: 100%;
   float: left;
@@ -781,6 +823,15 @@ a.menu-list {
 .preservation{
   display: none;
 }
+
+
+.portfolio_media{
+  display: block!important;
+}
+.portfolio_fool{
+  display: none!important;
+}
+
   /*nav_footer*/
   .nav_link_footer{
      text-decoration: none;
@@ -836,6 +887,15 @@ a.menu-list {
 .portfolio_section{
   display: none;
 }
+
+.portfolio_media{
+  display: block!important;
+}
+.portfolio_fool{
+  display: none!important;
+}
+
+
 .small{
   display: block;
     width: 89.333333%;
@@ -995,6 +1055,12 @@ footer {
     width: 9.3%;
   
 }
+.portfolio_media{
+  display: none!important;
+}
+.portfolio_fool{
+  display: block!important;
+}
 
   /*nav_footer*/
   .nav_link_footer{
@@ -1074,6 +1140,14 @@ footer {
   overflow:hidden;
   
 }
+.portfolio_media{
+  display: none!important;
+}
+.portfolio_fool{
+  display: block!important;
+}
+
+
 
   /*nav_footer*/
   .nav_link_footer{
