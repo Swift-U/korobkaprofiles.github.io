@@ -1,0 +1,26 @@
+.portfolio_text{
+    font-family: PF Regal,PF Regal Text Pro,Georgia,serif;
+    font-size: 5.14vw;
+    color: #032667;
+    margin:0;
+}
+
+.a {
+    font-size: 8vw!important;
+    fill: #fff!important;
+    font-family: ArialRoundedMTBold, Arial Rounded MT Bold;
+}
+
+.description{
+    color: rgb(202, 202, 202);
+ font-family: PF Regal,PF Regal Text Pro,Georgia,serif;
+
+}
+#photo_portfolio img{
+        width: 97%;
+    margin-bottom: 11%;
+        margin-left: 4.3%;
+    border-radius: 12px;
+    w
+}
+

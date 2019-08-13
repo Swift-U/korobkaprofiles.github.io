@@ -100,7 +100,7 @@
   <p  class="animated fadeInUp delay-2s" style="width: 23%;font-size: 1vw; font-weight: 300;color: #777;">Товарищи! рамки и место обучения кадров требуют от нас анализа форм развития. С другой стороны новая модель организационной деятельности требуют определения и уточнения направлений прогрессивного развития. </p>
   </div>
  
-  <form novalidate class="animated fadeInUp delay-1s">
+  <form novalidate class="animated fadeInUp delay-1s" action="mail.php" method="POST">
    <div class="form-inner">
      <h2 style="text-align: center;">Оставьте заявку</h2>
      <div>
@@ -108,6 +108,13 @@
            <input type="text" tabindex="1" name="name" id="name"/>
            <label for="name">Имя</label>
            <span class="placeholder">Имя</span>
+        </div>
+     </div>
+          <div>
+        <div class="underline">
+           <input type="text" tabindex="1" name="phone" id="name"/>
+           <label for="name">Телефон</label>
+           <span class="placeholder">Телефон</span>
         </div>
      </div>
     <div>
@@ -168,8 +175,8 @@
     </div>
     <div class="half no-label">
       <div>
-        <input type="checkbox" name="checkbox4" id="checkbox4" value="true"/>
-        <label for="checkbox4">Разработка логотипа</label>
+        <input type="checkbox" name="checkbox5" id="checkbox4" value="true"/>
+        <label for="checkbox5">Разработка логотипа</label>
         <span class="checkbox" tabindex="8">
           <span></span>
         </span>
@@ -177,8 +184,8 @@
     </div>
     <div class="half no-label">
       <div>
-        <input type="checkbox" name="checkbox4" id="checkbox4" value="true"/>
-        <label for="checkbox4">Одностроничный сайт</label>
+        <input type="checkbox" name="checkbox6" id="checkbox4" value="true"/>
+        <label for="checkbox6">Одностроничный сайт</label>
         <span class="checkbox" tabindex="8">
           <span></span>
         </span>
@@ -186,8 +193,8 @@
     </div>
     <div class="half no-label">
       <div>
-        <input type="checkbox" name="checkbox4" id="checkbox4" value="true"/>
-        <label for="checkbox4">Магазин</label>
+        <input type="checkbox" name="checkbox7" id="checkbox4" value="true"/>
+        <label for="checkbox7">Магазин</label>
         <span class="checkbox" tabindex="8">
           <span></span>
         </span>
@@ -195,8 +202,8 @@
     </div>
     <div class="half no-label">
       <div>
-        <input type="checkbox" name="checkbox4" id="checkbox4" value="true"/>
-        <label for="checkbox4">Другой проект</label>
+        <input type="checkbox" name="checkbox8" id="checkbox4" value="true"/>
+        <label for="checkbox8">Другой проект</label>
         <span class="checkbox" tabindex="8">
           <span></span>
         </span>
@@ -252,8 +259,8 @@
     <h2>Radio Button</h2>
     <div class="half no-label">
       <div>
-        <input type="radio" name="gender" checked value="male" id="gender-male"/>
-        <label for="gender-male">Male</label>
+        <input type="radio" name="gender_male" checked value="male" id="gender_male"/>
+        <label for="gender_male">Male</label>
         <span class="radio" tabindex="11">
           <span></span>
         </span>
@@ -261,8 +268,8 @@
     </div>
     <div class="half no-label">
       <div>
-        <input type="radio" name="gender" value="female"  id="gender-female"/>
-        <label for="gender-female">Female</label>
+        <input type="radio" name="gender_female" value="female"  id="gender_female"/>
+        <label for="gender_female">Female</label>
         <span class="radio" tabindex="12">
           <span></span>
         </span>

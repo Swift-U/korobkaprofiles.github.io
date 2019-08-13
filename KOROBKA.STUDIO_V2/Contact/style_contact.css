@@ -1,0 +1,46 @@
+#header_sec_2 li{
+	list-style-type: none; 
+	padding: 1%;
+
+}
+
+#header_sec_2 ul{
+	display: flex;
+	padding: 0
+}
+
+#header_sec_2 {
+	background:#002663!important;
+	 color: #fff;
+	 padding: 2%;
+
+
+}
+#header_sec_2  h4{
+	font-size: 3vw;
+
+}
+#header_sec_2  a{
+	font-size: 1.3vw;
+
+}
+
+
+
+
+#header_sec_1  h4{
+	font-size: 3vw;
+	color: #777;
+	font-weight: 600;
+
+}
+
+#header_sec_1  {
+	padding-left:7%;
+	padding-top:4% ;
+
+}
+
+
+
+
