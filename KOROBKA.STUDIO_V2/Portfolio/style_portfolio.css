@@ -24,3 +24,10 @@
     w
 }
 
+
+
+@media (max-width: 933px){
+    .description p{
+        font-size: 0.8rem;
+    }
+}

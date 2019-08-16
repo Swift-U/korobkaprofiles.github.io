@@ -1,0 +1,114 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
+}
+
+
+/**/
+@media (min-width: 576px){}
+.modal-dialog {
+    max-width: 62%;
+    margin: 1.75rem auto;
+}
+}
+
+.modal-body{
+	padding: 0rem!important;
+}
+
+/**/
+
+#color div{
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+padding: 5rem;
+}
+
+
+
+
+
+
+
+
+#head_text h3{
+text-align: center;
+font-size: 3.14vw;
+color: #30428a;
+}
+
+
+/*media*/
+@media (max-width: 933px){
+	#list_services{
+		text-align: left;
+	}
+	#list_services li{
+		font-size: 3.5vw; 
+	}
+
+	#list h3{
+	font-size: 2.47vw;
+	color: #032667;
+}
+#sec_2 svg{
+	font-size: 2.47vw;
+
+}
+
+#icon_footer li {
+	font-size: 5vw;
+}
+
+
+
+.services_text{
+	font-size: 5.47vw;
+}
+
+
+#sec_1 svg{
+ font-size: 4.47vw;
+}
+#sec_1 li{
+ font-size: 2.47vw;
+}
+
+#header_text{
+ margin-right: 0rem!important;
+}
+
+
+}
+
+
+@media (max-width: 992px){
+.fix{
+	display: contents;
+}
+.img-fluid {
+	margin:0 auto;
+}
+}
+
+
+
+
+@media (max-width: 767px){
+#corusel{
+	display: none;
+}
+}
+
+
+
+@media (max-width: 600px){
+		#list h3{
+	font-size: 5.47vw;
+	color: #032667;
+}
+
+#sec_2 svg{
+	font-size: 6.47vw;
+
+}
+}
